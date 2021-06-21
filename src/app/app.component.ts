@@ -12,7 +12,6 @@ declare var powerbi: any;
 })
  export class AppComponent implements OnInit  {
 
-  
   constructor(private httpClient: HttpClient) { }
 
   @ViewChild('embeddedReport')
