@@ -4,7 +4,6 @@ import { models } from 'powerbi-client';
 import { HttpClient } from '@angular/common/http';
 declare var powerbi: any;
 
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -13,7 +12,6 @@ declare var powerbi: any;
  export class AppComponent implements OnInit  {
 
   constructor(private httpClient: HttpClient) { }
-
   @ViewChild('embeddedReport')
   embeddedReport!: ElementRef;
   config: any;
